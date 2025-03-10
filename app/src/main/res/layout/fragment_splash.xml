@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFBE0B"
+    tools:context=".auth.SplashFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="91.00dp"
+                android:text="blink"
+                android:textStyle="bold"
+                android:textColor="#FF000000"
+                android:textSize="78.00sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="91.00dp"
+                android:text="it"
+                android:textStyle="bold"
+                android:textColor="@color/green"
+                android:textSize="78.00sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FF000000"
+            android:textSize="19.50sp"
+            android:text="India\'s last minute app" />
+
+        <View
+            android:layout_width="234.00dp"
+            android:layout_height="2.60dp"
+            android:layout_weight="3"
+            android:background="#7B7777"
+            android:layout_marginTop="26.00dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:letterSpacing="0.1"
+            android:textColor="#FF000000"
+            android:textSize="10.40sp"
+            android:layout_marginTop="26.00dp"
+            android:text="A ZOMATO COMPANY" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

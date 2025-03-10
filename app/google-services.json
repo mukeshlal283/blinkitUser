@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "972921097316",
+    "firebase_url": "https://pcart-12a4f-default-rtdb.firebaseio.com",
+    "project_id": "pcart-12a4f",
+    "storage_bucket": "pcart-12a4f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:972921097316:android:0bddb7c297818af60d2371",
+        "android_client_info": {
+          "package_name": "com.example.userblinkit"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmRQHmy_fXVhBqHfKsV2VIoAzB2hxt_H4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
